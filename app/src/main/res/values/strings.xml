@@ -3,4 +3,35 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="next_button">Next Word</string>
+    <array name="word_items">
+        <item>@array/word_cow</item>
+        <item>@array/word_duck</item>
+        <item>@array/word_horse</item>
+    </array>
+
+    <array name="word_cow">
+        <item>@drawable/cow</item>
+        <item>cow</item>
+        <item>วัว</item>
+        <item>cow_sound</item>
+        <item>cow_english</item>
+        <item>cow_thai</item>
+    </array>
+    <array name="word_duck">
+        <item>@drawable/duck</item>
+        <item>duck</item>
+        <item>เป็ด</item>
+        <item>duck_sound</item>
+        <item>duck_english</item>
+        <item>duck_thai</item>
+    </array>
+    <array name="word_horse">
+        <item>@drawable/horse</item>
+        <item>horse</item>
+        <item>ม้า</item>
+        <item>horse_sound</item>
+        <item>horse_english</item>
+        <item>horse_thai</item>
+    </array>
 </resources>
