@@ -1,7 +1,7 @@
 package phillip.adamson.wordfunflashcards;
 
 public class CardTextView {
-    public String cardText;
+    private String cardText;
     private int cardSoundResourceId;
 
     CardTextView(String cardText, int cardSoundResourceId) {

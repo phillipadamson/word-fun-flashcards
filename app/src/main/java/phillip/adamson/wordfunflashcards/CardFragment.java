@@ -63,7 +63,7 @@ public class CardFragment extends Fragment {
             this.cardSound = MediaPlayer.create(getActivity().getBaseContext(), this.card.getCardImageViews()[0].getCardSoundResourceId());
             this.cardSound.start();
         } else {
-            this.textView.setText(this.card.getCardTextViews()[this.currentView - this.card.getCardImageViews().length].cardText);
+            this.textView.setText(this.card.getCardTextViews()[this.currentView - this.card.getCardImageViews().length].getCardText());
             this.textView.setVisibility(View.VISIBLE);
             this.cardSound = MediaPlayer.create(getActivity().getBaseContext(), this.card.getCardTextViews()[this.currentView - this.card.getCardImageViews().length].getCardSoundResourceId());
             this.cardSound.start();
